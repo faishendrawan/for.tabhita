@@ -429,8 +429,11 @@ footer .links a .phone:hover {
   html {
     font-size: 60%;
   }
+  #home {
+    padding: 0 2rem;
+  }
   #home .img img {
-    height: 50vh;
+    height: 60vh;
     top: -9rem;
   }
   .text {
@@ -478,7 +481,7 @@ footer .links a .phone:hover {
     overflow-x: hidden;
   }
   #home .img img {
-    height: 40vh;
+    height: 57vh;
     top: -9rem;
     left: -2rem;
   }
@@ -509,7 +512,7 @@ footer .links a .phone:hover {
     top: 6rem;
   }
   #home .img img {
-    height: 39vh;
+    height: 56vh;
     top: -7rem;
     left: -2rem;
   }
