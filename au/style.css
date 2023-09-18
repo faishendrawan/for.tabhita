@@ -48,15 +48,56 @@ a:hover {
   border-radius: 20px;
 }
 
+.aud {
+  visibility: hidden;
+}
+
+.img-q {
+  visibility: hidden;
+}
+.txt {
+  position: relative;
+  top: 70px;
+}
+.ppp{
+  margin-top: 2rem;
+  padding-right: 50%;
+  line-height: 31px;
+}
+
 img {
   width: 100%;
   aspect-ratio: 1/1;
   object-fit: cover;
   border-radius: 20px;
 }
+.img-q {
+  width: 100%;
+  aspect-ratio: 2/1;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.w {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.next span {
+  position: relative;
+  left: 13px;
+}
 
 @media (max-width: 440px) {
   .warp {
     width: 80%;
+  }
+  p{
+    font-size: 12px;
+  }
+  .ppp {
+    line-height: 28px;
+    padding-right: 40%;
   }
 }
