@@ -34,12 +34,12 @@
       <a href="#galery">Galery</a>
     </nav>
   </header>
-  <div class="rest">
+  <!-- <div class="rest">
     <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#wishes">Wishes</a>
     <a href="#galery">Galery</a>
-  </div>
+  </div> -->
   <!-- header-end -->
 
   <!-- Landing page start -->
@@ -172,14 +172,14 @@
     <div class="links">
       <h2>Contact Us</h2>
 
-      <a href="https://wa.me" target="_blank">
+      <a href="https://www.instagram.com/dra.tha_/" target="_blank">
         <div class="phone">
           <i class="footer-icon" data-feather="instagram"></i>
           <p>dra_tha.</p>
         </div>
       </a>
 
-      <a href="https://google.com" target="_blank">
+      <a href="https://google.com/drathaacc@gmail.com" target="_blank">
         <div class="phone">
           <i class="footer-icon" data-feather="mail"></i>
           <p>drathaacc@gmail.com</p>

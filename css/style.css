@@ -30,6 +30,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 4rem;
+  flex-wrap: wrap;
   border-bottom: 1px solid #000;
   position: fixed;
   z-index: 999;
@@ -462,10 +463,16 @@ footer .links a .phone:hover {
     display: flex;
   }
   header {
-    height: 6rem;
+    height: auto;
+  }
+  .logo {
+    margin: 1.3rem 0.5rem;
   }
   nav {
-    display: none;
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
   }
   footer {
     flex-direction: column;
