@@ -18,7 +18,7 @@
 
   <?php 
   if(isset($_POST['submit'])) {
-    include 'db.php';
+    include 'php/db.php';
     
     $user = $_POST['user'];
     $pass = $_POST['pass'];
